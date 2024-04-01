@@ -8,7 +8,7 @@ public class OEPTest {
     @Test
     public void testOdd() {
         OEP oep = new OEP();
-        AssertJUnit.assertEquals("ODD", oep.play(3));
+        AssertJUnit.assertEquals("ODD", oep.play(15));
     }
     
     @Test
@@ -20,6 +20,6 @@ public class OEPTest {
     @Test
     public void testPrime() {
         OEP oep = new OEP();
-        AssertJUnit.assertEquals("PRIME", oep.play(11));
+        AssertJUnit.assertEquals("PRIME", oep.play(3));
     }
 }

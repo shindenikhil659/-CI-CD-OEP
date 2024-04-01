@@ -6,6 +6,7 @@
       <class name="OddEvenPrime.OddEvenPrime.OEPTest">
         <methods>
           <include name="testOdd"/>
+          <include name="testPrime"/>
         </methods>
       </class> <!-- OddEvenPrime.OddEvenPrime.OEPTest -->
     </classes>
